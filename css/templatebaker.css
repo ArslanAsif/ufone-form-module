@@ -1,0 +1,377 @@
+/*
+
+John Template
+
+AUTHOR
+http://templatebaker.com/
+
+LICENSE
+http://templatebaker.com/license/
+
+CREDITS
+https://unsplash.com/
+
+SUPPORT
+info@templatebaker.com
+
+*/
+p {
+    font-family: 'Noto Sans', sans-serif;
+}
+a,
+a:hover,
+a:focus {
+    color: #6f9ef2;
+}
+.tb-page-container h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 54px;
+}
+.tb-page-container h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+}
+.tb-underline-dark {
+    width: 15%;
+    height: 1px;
+    background: #333333;
+    display: inline-block;
+}
+.tb-underline-white {
+    width: 15%;
+    height: 1px;
+    background: #ffffff;
+    display: inline-block;
+}
+.tb-page-container {
+    padding: 100px 0;
+    border-bottom: 1px solid black;
+}
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+.pt30 {
+    padding-top: 30px;
+}
+.pt50 {
+    padding-top: 50px;
+}
+
+/*****************************/
+/***** NAVBAR *****/
+/*****************************/
+.navbar-default {
+    border-color: transparent;
+    background-color: rgba(0,0,0,0.8);;
+
+}
+.navbar-default .navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #6f9ef2;
+}
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+.navbar-default .navbar-toggle {
+    border-color: #6f9ef2;
+    background-color: #6f9ef2;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #6f9ef2;
+}
+.navbar-default .nav li a {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 22px;
+}
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #6f9ef2;
+}
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #6f9ef2;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #6f9ef2;
+    background-color: transparent;
+}
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 45px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 4em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default.navbar-shrink, .navbar-default.navbar-static {
+        padding: 10px 0;
+        background-color: rgba(0,0,0,0.8);;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand, .navbar-default.navbar-static .navbar-brand {
+        font-size: 1.5em;
+        color: #fff;
+    }
+
+    .navbar-default.navbar-shrink .nav li a {
+        font-size: 1.4em;
+    }
+}
+
+/*****************************/
+/***** HEADER *****/
+/*****************************/
+.tb-header-container h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 54px;
+}
+.tb-header-container p {
+    font-size: 28px;
+    font-weight: 200;
+}
+.tb-header-container {
+    background-image: url(../img/tb-header-bg.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-top: 250px;
+    padding-bottom: 300px;
+    color: #ffffff;
+}
+
+/*****************************/
+/***** SKILLS *****/
+/*****************************/
+.tb-skills-container {
+    padding-top: 60px;
+}
+.tb-skills-container h4 {
+    padding-top: 20px;
+}
+.tb-icon-skills i {
+    background: #ffffff;
+    font-size: 50px;
+    color: #6f9ef2;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    padding-top: 33px;
+    border: 1px solid #6f9ef2;
+}
+
+/*****************************/
+/***** PORTFOLIO *****/
+/*****************************/
+.tb-portfolio-container {
+    background-color: #f1f1f1;
+}
+.tb-thumb-box {
+    border-radius: 4px;
+    border-bottom: 2px solid #d9d9d9;
+    margin: 0;
+    padding: 0;
+}
+.tb-img-responsive {
+    border-radius: 4px 4px 0 0;
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.thumbnail {
+    padding: 0;
+    margin: 20px 0 0 0;
+    border: 0px solid #ddd;
+    border-bottom: 1px solid #d9d9d9;
+}
+.thumbnail .caption {
+    padding: 40px;
+}
+
+/*****************************/
+/***** ABOUT *****/
+/*****************************/
+.tb-about-container {
+    padding-top: 40px;
+}
+.tb-about-container img {
+    padding-bottom: 50px;
+}
+.tb-about-container h5 {
+    padding-bottom: 20px;
+}
+.tb-about-container h4 {
+    padding: 20px 0 5px 0;
+    text-transform: uppercase;
+}
+.tb-icon-about {
+    padding-bottom: 80px;
+}
+.tb-icon-about i {
+    background: #6f9ef2;
+    font-size: 25px;
+    color: #ffffff;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    padding-top: 19px;
+}
+
+/*****************************/
+/***** HIRE *****/
+/*****************************/
+
+.tb-hire-container {
+    background-image: url(../img/tb-hire-bg.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #ffffff;
+}
+
+.tb-hire-container2 {
+    background-image: url(../img/tb-project-bg.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #ffffff;
+}
+
+/*****************************/
+/***** CONTACT *****/
+/*****************************/
+
+.tb-touch-body {
+    padding-top: 40px;
+}
+.tb-touch-body-pt>li {
+    padding: 0 40px;
+}
+.tb-social-icons {
+    padding-top: 20px;
+}
+.tb-social-icons a {
+    color: #333333;
+    font-size: 46px;
+}
+
+/*****************************/
+/***** FOOTER *****/
+/*****************************/
+
+footer {
+    background-color: #f1f1f1;
+    padding: 40px 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #aaa;
+}
+footer a {
+    color: #aaa;
+}
+footer .tb-copyright {
+    border-left: 1px solid #aaaaaa;
+    padding: 0 10px;
+}
+
+/*****************************/
+/***** BUTTONS *****/
+/*****************************/
+.tb-btn-bb {
+    padding: 30px 30px !important;
+    margin: 0 !important;
+    line-height: 10px !important;
+    border-color: #ffffff;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: lighter !important;
+    color: #ffffff !important;
+    background-color: black;
+    opacity: 0.7;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    font-weight: 400;
+}
+.tb-btn-bb:hover,
+.tb-btn-bb:focus,
+.tb-btn-bb:active,
+.tb-btn-bb.active,
+.open .dropdown-toggle.tb-btn-bb {
+    border-color: #6f9ef2;
+    color: #fff !important;
+    background-color: #6f9ef2 !important;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    font-weight: 400;
+}
+.tb-btn-bb:active,
+.tb-btn-bb.active,
+.open .dropdown-toggle.tb-btn-bb {
+    background-image: none;
+}
+.tb-btn-bb.disabled,
+.tb-btn-bb[disabled],
+fieldset[disabled] .tb-btn-bb,
+.tb-btn-bb.disabled:hover,
+.tb-btn-bb[disabled]:hover,
+fieldset[disabled] .tb-btn-bb:hover,
+.tb-btn-bb.disabled:focus,
+.tb-btn-bb[disabled]:focus,
+fieldset[disabled] .tb-btn-bb:focus,
+.tb-btn-bb.disabled:active,
+.tb-btn-bb[disabled]:active,
+fieldset[disabled] .tb-btn-bb:active,
+.tb-btn-bb.disabled.active,
+.tb-btn-bb[disabled].active,
+fieldset[disabled] .tb-btn-bb.active {
+    border-color: #6f9ef2;
+    background-color: #6f9ef2;
+}
